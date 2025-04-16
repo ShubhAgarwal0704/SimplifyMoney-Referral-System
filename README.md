@@ -64,6 +64,9 @@ This project implements a **Referral Tracking System** that allows users to sign
 ### Base URL:
 [http://smtask.ap-south-1.elasticbeanstalk.com/](http://smtask.ap-south-1.elasticbeanstalk.com/)
 
+### Swagger Documentation URL:
+[http://smtask.ap-south-1.elasticbeanstalk.com/swagger-ui](http://smtask.ap-south-1.elasticbeanstalk.com/swagger-ui)
+
 ### User API
 
 #### 1. **Signup API**
