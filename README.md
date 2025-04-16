@@ -14,7 +14,6 @@ A Java-based backend system for managing user signups with referral code trackin
 - [Database Schema](#database-schema)
 - [Setup & Deployment](#setup--deployment)
 - [Sample Curl Requests](#sample-curl-requests)
-- [Testing](#testing)
 - [Author](#author)
 
 ---
@@ -243,16 +242,6 @@ curl -X GET http://smtask.ap-south-1.elasticbeanstalk.com/api/user/referred/ABC1
 ```bash
 curl -X GET http://smtask.ap-south-1.elasticbeanstalk.com/api/report/referrals -o Referral_Report.csv
 ```
-
----
-
-## Testing
-
-- Unit tests are implemented using **JUnit**.
-- To run tests:
-  ```bash
-  mvn test
-  ```
 
 ---
 
