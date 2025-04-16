@@ -4,6 +4,7 @@ import com.task.simlipfymoney.dtos.ProfileCompletionRequest;
 import com.task.simlipfymoney.dtos.SignupRequest;
 import com.task.simlipfymoney.dtos.UserResponse;
 import com.task.simlipfymoney.services.UserService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/user")
+@Tag(name = "User APIs")
 public class UserController {
 
     @Autowired
