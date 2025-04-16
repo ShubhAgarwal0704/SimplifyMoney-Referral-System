@@ -210,7 +210,7 @@ This project implements a **Referral Tracking System** that allows users to sign
 
 ### 1. **Signup API**
 ```bash
-curl -X POST "http://smtask.ap-south-1.elasticbeanstalk.com/api/user/signup" -H "Content-Type: application/json" -d "{\"name\": \"John Doe\", \"email\": \"john.doe@example.com\", \"password\": \"securePassword\", \"referrerCode\": \"ABC123\"}"
+curl -X POST "http://smtask.ap-south-1.elasticbeanstalk.com/api/user/signup" -H "Content-Type: application/json" -d "{\"name\": \"John Doe\", \"email\": \"john.doe@example.com\", \"password\": \"securePassword\"}"
 ```
 
 ### 2. **Profile Completion API**
